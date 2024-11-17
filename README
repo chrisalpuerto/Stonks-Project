@@ -1,1 +1,42 @@
-README
+# Automated Trading System for FNGU and FNGD
+
+This project is an **automated trading system** designed to trade two highly volatile leveraged ETFs: **FNGU** and **FNGD**. These ETFs track the performance of popular tech companies (FANG+) such as META, GOOGL, TSLA, NVDA, and others. The prices of FNGU and FNGD move inversely, enabling profit opportunities without short-selling.
+
+## Features
+
+1. **Historical Data Management**:
+   - Download historical price data (01/01/2020 to the latest market close) from free data sources (e.g., Yahoo Finance).
+   - Save data in JSON format for local storage and retrieval.
+   - Data includes market date, open, high, low, close prices, and volume.
+
+2. **User Interface**:
+   - Select a symbol (FNGU or FNGD) and download historical data.
+   - Display the latest market price, percentage change, and a historical price graph for a user-selected date range.
+   - Backtest trading strategies and display performance metrics.
+
+3. **Trading Strategies**:
+   - Implement technical indicators like:
+     - **Simple Moving Average (SMA)**
+     - **Bollinger Bands (BB)**
+     - **MACD (Moving Average Convergence Divergence)**
+   - Generate buy/sell signals based on indicator trends.
+
+4. **Backtesting**:
+   - Simulate trading strategies with:
+     - **Initial balance**: $100,000
+     - **No trading fees**
+     - Detailed transaction logs in `history.json` (date, type, shares, amount, balance).
+   - Evaluate performance metrics:
+     - Dollar gain/loss per trade
+     - Total gain/loss
+     - Percentage return
+
+## Goals
+- **Generate consistent annual returns of 10% or more**.
+- Help users analyze and improve trading strategies through backtesting.
+
+## Technologies Used
+- **Python** for logic and data handling.
+- **Flask** for the user interface.
+- **Plotly/Matplotlib** for data visualization.
+- **JSON** for data storage.
