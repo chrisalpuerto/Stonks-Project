@@ -8,7 +8,7 @@ The system utilizes historical market data from Yahoo Finance and provides a use
 ## Features
 
 ### 1. Data Management
-- **Data Download**: The system downloads historical market data for **FNGU** and **FNGD** from Yahoo Finance, covering the period from 01/01/2020 to the latest market close.
+- **Data Download**: The system downloads historical market data for **FNGU** and **FNGD** from Yahoo Finance, covering the period from 01/01/2021 to the latest market close.
 - **Data Storage**: The downloaded data is stored in a local `history.json` file in JSON format, which includes:
   - Date
   - Open price
