@@ -60,7 +60,6 @@ All trades and relevant metrics are logged in a JSON file (`trade_log.json`) for
 ## How to Use
 
 ### Prerequisites
-- Python 3.9 or higher.
 - Required Python libraries listed in `requirements.txt`.
 
 ### Installation
